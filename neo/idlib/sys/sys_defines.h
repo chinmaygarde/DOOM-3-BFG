@@ -74,8 +74,20 @@ If you have questions concerning this license or the applicable additional terms
 	#define ID_PC_WIN
 	#define ID_WIN32
 	#define ID_LITTLE_ENDIAN
+#elif defined(__APPLE__)
+
+    #if TARGET_OS_IPHONE
+        #define ID_LITTLE_ENDIAN
+        #define ID_OPENGL_ES
+        #define ID_IOS
+    #else
+        #error Unknown Platform
+    #endif
+
 #else
+
 #error Unknown Platform
+
 #endif
 
 #define ID_OPENGL
@@ -123,6 +135,46 @@ If you have questions concerning this license or the applicable additional terms
 #endif
 
 #endif
+
+/*
+ ================================================================================================
+ 
+ iOS
+ 
+ ================================================================================================
+ */
+
+#ifdef ID_IOS
+
+#define ID_INLINE                       inline
+#define ID_FORCE_INLINE                 __inline__ __attribute__ ((always_inline))
+
+#define ID_INLINE_EXTERN                extern inline
+#define ID_FORCE_INLINE_EXTERN          extern __inline__ __attribute__ ((always_inline))
+
+#define ALIGN16( x )					__attribute__((__aligned__(16))) x
+#define ALIGNTYPE16						__attribute__((__aligned__(16)))
+#define ALIGNTYPE128					__attribute__((__aligned__(128)))
+#define FORMAT_PRINTF( x )              __attribute__((format(printf, x)))
+
+#define PATHSEPARATOR_STR				"/"
+#define PATHSEPARATOR_CHAR				'/'
+#define NEWLINE							"\n"
+
+#ifndef UINT_PTR
+    #define UINT_PTR                    uintptr_t
+#endif
+
+#ifndef _alloca
+    #define _alloca                     alloca
+#endif
+
+#define VERIFY_FORMAT_STRING
+
+#define NO_RETURN                       __attribute__((noreturn))
+
+#endif /* ID_IOS */
+
 
 /*
 ================================================================================================
