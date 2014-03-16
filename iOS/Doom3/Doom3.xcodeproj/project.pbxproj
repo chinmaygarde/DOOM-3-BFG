@@ -76,6 +76,58 @@
 		EA0BC8D018D568AB00552D00 /* SWF_Text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80E18D5524D00552D00 /* SWF_Text.cpp */; };
 		EA0BC8D118D568AB00552D00 /* SWF_TextInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80F18D5524D00552D00 /* SWF_TextInstance.cpp */; };
 		EA0BC8D218D568AB00552D00 /* SWF_Zlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC81218D5524D00552D00 /* SWF_Zlib.cpp */; };
+		EA0BC8D918D5693F00552D00 /* Base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC68E18D5524C00552D00 /* Base64.cpp */; };
+		EA0BC8DB18D5693F00552D00 /* BitMsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC69018D5524C00552D00 /* BitMsg.cpp */; };
+		EA0BC8DD18D5693F00552D00 /* Bounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC69318D5524C00552D00 /* Bounds.cpp */; };
+		EA0BC8DF18D5693F00552D00 /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC69518D5524C00552D00 /* Box.cpp */; };
+		EA0BC8E118D5693F00552D00 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC69718D5524C00552D00 /* Sphere.cpp */; };
+		EA0BC8E418D5693F00552D00 /* CmdArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC69A18D5524C00552D00 /* CmdArgs.cpp */; };
+		EA0BC8E618D5693F00552D00 /* CommandLink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC69C18D5524C00552D00 /* CommandLink.cpp */; };
+		EA0BC8EA18D5693F00552D00 /* HashIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6A118D5524C00552D00 /* HashIndex.cpp */; };
+		EA0BC8F918D5693F00552D00 /* Dict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6B018D5524C00552D00 /* Dict.cpp */; };
+		EA0BC8FB18D5693F00552D00 /* DrawVert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6B318D5524C00552D00 /* DrawVert.cpp */; };
+		EA0BC8FE18D5693F00552D00 /* JointTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6B618D5524C00552D00 /* JointTransform.cpp */; };
+		EA0BC90018D5693F00552D00 /* RenderMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6B818D5524C00552D00 /* RenderMatrix.cpp */; };
+		EA0BC90218D5693F00552D00 /* Surface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6BA18D5524C00552D00 /* Surface.cpp */; };
+		EA0BC90418D5693F00552D00 /* Surface_Patch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6BC18D5524C00552D00 /* Surface_Patch.cpp */; };
+		EA0BC90618D5693F00552D00 /* Surface_Polytope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6BE18D5524C00552D00 /* Surface_Polytope.cpp */; };
+		EA0BC90818D5693F00552D00 /* Surface_SweptSpline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6C018D5524C00552D00 /* Surface_SweptSpline.cpp */; };
+		EA0BC90A18D5693F00552D00 /* TraceModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6C218D5524C00552D00 /* TraceModel.cpp */; };
+		EA0BC90C18D5693F00552D00 /* Winding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6C418D5524C00552D00 /* Winding.cpp */; };
+		EA0BC90E18D5693F00552D00 /* Winding2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6C618D5524C00552D00 /* Winding2D.cpp */; };
+		EA0BC91018D5693F00552D00 /* CRC32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6C918D5524C00552D00 /* CRC32.cpp */; };
+		EA0BC91218D5693F00552D00 /* MD4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6CB18D5524C00552D00 /* MD4.cpp */; };
+		EA0BC91418D5693F00552D00 /* MD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6CD18D5524C00552D00 /* MD5.cpp */; };
+		EA0BC91618D5693F00552D00 /* Heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6CF18D5524C00552D00 /* Heap.cpp */; };
+		EA0BC91818D5693F00552D00 /* LangDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6D118D5524C00552D00 /* LangDict.cpp */; };
+		EA0BC91A18D5693F00552D00 /* Lexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6D318D5524C00552D00 /* Lexer.cpp */; };
+		EA0BC91C18D5693F00552D00 /* Lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6D518D5524C00552D00 /* Lib.cpp */; };
+		EA0BC91E18D5693F00552D00 /* MapFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6D718D5524C00552D00 /* MapFile.cpp */; };
+		EA0BC92018D5693F00552D00 /* Angles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6DA18D5524C00552D00 /* Angles.cpp */; };
+		EA0BC92218D5693F00552D00 /* Complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6DC18D5524C00552D00 /* Complex.cpp */; };
+		EA0BC92718D5693F00552D00 /* Lcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6E118D5524C00552D00 /* Lcp.cpp */; };
+		EA0BC92918D5693F00552D00 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6E318D5524C00552D00 /* Math.cpp */; };
+		EA0BC92B18D5693F00552D00 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6E518D5524C00552D00 /* Matrix.cpp */; };
+		EA0BC92D18D5693F00552D00 /* MatX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6E718D5524C00552D00 /* MatX.cpp */; };
+		EA0BC92F18D5693F00552D00 /* Ode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6E918D5524C00552D00 /* Ode.cpp */; };
+		EA0BC93118D5693F00552D00 /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6EB18D5524C00552D00 /* Plane.cpp */; };
+		EA0BC93318D5693F00552D00 /* Pluecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6ED18D5524C00552D00 /* Pluecker.cpp */; };
+		EA0BC93518D5693F00552D00 /* Polynomial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6EF18D5524C00552D00 /* Polynomial.cpp */; };
+		EA0BC93718D5693F00552D00 /* Quat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6F118D5524C00552D00 /* Quat.cpp */; };
+		EA0BC93A18D5693F00552D00 /* Rotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6F418D5524D00552D00 /* Rotation.cpp */; };
+		EA0BC93E18D5693F00552D00 /* Simd_Generic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6F818D5524D00552D00 /* Simd_Generic.cpp */; };
+		EA0BC94218D5693F00552D00 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6FC18D5524D00552D00 /* Vector.cpp */; };
+		EA0BC94518D5693F00552D00 /* VecX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC6FF18D5524D00552D00 /* VecX.cpp */; };
+		EA0BC94718D5693F00552D00 /* ParallelJobList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC70118D5524D00552D00 /* ParallelJobList.cpp */; };
+		EA0BC94A18D5693F00552D00 /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC70418D5524D00552D00 /* Parser.cpp */; };
+		EA0BC94C18D5693F00552D00 /* precompiled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC70618D5524D00552D00 /* precompiled.cpp */; };
+		EA0BC94E18D5693F00552D00 /* RectAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC70818D5524D00552D00 /* RectAllocator.cpp */; };
+		EA0BC94F18D5693F00552D00 /* SoftwareCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC70918D5524D00552D00 /* SoftwareCache.cpp */; };
+		EA0BC95118D5693F00552D00 /* Str.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC70B18D5524D00552D00 /* Str.cpp */; };
+		EA0BC95618D5693F00552D00 /* sys_assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC71118D5524D00552D00 /* sys_assert.cpp */; };
+		EA0BC96018D5693F00552D00 /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC71C18D5524D00552D00 /* Thread.cpp */; };
+		EA0BC96218D5693F00552D00 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC71E18D5524D00552D00 /* Timer.cpp */; };
+		EA0BC96418D5693F00552D00 /* Token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC72018D5524D00552D00 /* Token.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2225,6 +2277,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0BC8D918D5693F00552D00 /* Base64.cpp in Sources */,
+				EA0BC8DB18D5693F00552D00 /* BitMsg.cpp in Sources */,
+				EA0BC8DD18D5693F00552D00 /* Bounds.cpp in Sources */,
+				EA0BC8DF18D5693F00552D00 /* Box.cpp in Sources */,
+				EA0BC8E118D5693F00552D00 /* Sphere.cpp in Sources */,
+				EA0BC8E418D5693F00552D00 /* CmdArgs.cpp in Sources */,
+				EA0BC8E618D5693F00552D00 /* CommandLink.cpp in Sources */,
+				EA0BC8EA18D5693F00552D00 /* HashIndex.cpp in Sources */,
+				EA0BC8F918D5693F00552D00 /* Dict.cpp in Sources */,
+				EA0BC8FB18D5693F00552D00 /* DrawVert.cpp in Sources */,
+				EA0BC8FE18D5693F00552D00 /* JointTransform.cpp in Sources */,
+				EA0BC90018D5693F00552D00 /* RenderMatrix.cpp in Sources */,
+				EA0BC90218D5693F00552D00 /* Surface.cpp in Sources */,
+				EA0BC90418D5693F00552D00 /* Surface_Patch.cpp in Sources */,
+				EA0BC90618D5693F00552D00 /* Surface_Polytope.cpp in Sources */,
+				EA0BC90818D5693F00552D00 /* Surface_SweptSpline.cpp in Sources */,
+				EA0BC90A18D5693F00552D00 /* TraceModel.cpp in Sources */,
+				EA0BC90C18D5693F00552D00 /* Winding.cpp in Sources */,
+				EA0BC90E18D5693F00552D00 /* Winding2D.cpp in Sources */,
+				EA0BC91018D5693F00552D00 /* CRC32.cpp in Sources */,
+				EA0BC91218D5693F00552D00 /* MD4.cpp in Sources */,
+				EA0BC91418D5693F00552D00 /* MD5.cpp in Sources */,
+				EA0BC91618D5693F00552D00 /* Heap.cpp in Sources */,
+				EA0BC91818D5693F00552D00 /* LangDict.cpp in Sources */,
+				EA0BC91A18D5693F00552D00 /* Lexer.cpp in Sources */,
+				EA0BC91C18D5693F00552D00 /* Lib.cpp in Sources */,
+				EA0BC91E18D5693F00552D00 /* MapFile.cpp in Sources */,
+				EA0BC92018D5693F00552D00 /* Angles.cpp in Sources */,
+				EA0BC92218D5693F00552D00 /* Complex.cpp in Sources */,
+				EA0BC92718D5693F00552D00 /* Lcp.cpp in Sources */,
+				EA0BC92918D5693F00552D00 /* Math.cpp in Sources */,
+				EA0BC92B18D5693F00552D00 /* Matrix.cpp in Sources */,
+				EA0BC92D18D5693F00552D00 /* MatX.cpp in Sources */,
+				EA0BC92F18D5693F00552D00 /* Ode.cpp in Sources */,
+				EA0BC93118D5693F00552D00 /* Plane.cpp in Sources */,
+				EA0BC93318D5693F00552D00 /* Pluecker.cpp in Sources */,
+				EA0BC93518D5693F00552D00 /* Polynomial.cpp in Sources */,
+				EA0BC93718D5693F00552D00 /* Quat.cpp in Sources */,
+				EA0BC93A18D5693F00552D00 /* Rotation.cpp in Sources */,
+				EA0BC93E18D5693F00552D00 /* Simd_Generic.cpp in Sources */,
+				EA0BC94218D5693F00552D00 /* Vector.cpp in Sources */,
+				EA0BC94518D5693F00552D00 /* VecX.cpp in Sources */,
+				EA0BC94718D5693F00552D00 /* ParallelJobList.cpp in Sources */,
+				EA0BC94A18D5693F00552D00 /* Parser.cpp in Sources */,
+				EA0BC94C18D5693F00552D00 /* precompiled.cpp in Sources */,
+				EA0BC94E18D5693F00552D00 /* RectAllocator.cpp in Sources */,
+				EA0BC94F18D5693F00552D00 /* SoftwareCache.cpp in Sources */,
+				EA0BC95118D5693F00552D00 /* Str.cpp in Sources */,
+				EA0BC95618D5693F00552D00 /* sys_assert.cpp in Sources */,
+				EA0BC96018D5693F00552D00 /* Thread.cpp in Sources */,
+				EA0BC96218D5693F00552D00 /* Timer.cpp in Sources */,
+				EA0BC96418D5693F00552D00 /* Token.cpp in Sources */,
 				EA0BC8B718D5671D00552D00 /* sys_localuser.cpp in Sources */,
 				EA0BC8C418D568AB00552D00 /* SWF_Main.cpp in Sources */,
 				EA0BC8A118D5535300552D00 /* ListWindow.cpp in Sources */,
@@ -2484,6 +2588,7 @@
 				EA0BC51918D5521B00552D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA0BC51A18D5521B00552D00 /* Build configuration list for PBXNativeTarget "Doom3Tests" */ = {
 			isa = XCConfigurationList;
@@ -2492,6 +2597,7 @@
 				EA0BC51C18D5521B00552D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
