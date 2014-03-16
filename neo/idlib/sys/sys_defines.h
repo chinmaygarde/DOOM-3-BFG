@@ -146,6 +146,11 @@ If you have questions concerning this license or the applicable additional terms
 
 #ifdef ID_IOS
 
+#define	CPUSTRING						"arm"
+
+#define	BUILD_STRING					"ios-" CPUSTRING
+#define BUILD_OS_ID						0
+
 #define ID_INLINE                       inline
 #define ID_FORCE_INLINE                 __inline__ __attribute__ ((always_inline))
 

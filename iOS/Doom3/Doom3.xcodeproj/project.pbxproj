@@ -54,9 +54,28 @@
 		EA0BC8B918D5671D00552D00 /* sys_savegame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83218D5524D00552D00 /* sys_savegame.cpp */; };
 		EA0BC8BA18D5671D00552D00 /* sys_session_callbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83518D5524D00552D00 /* sys_session_callbacks.cpp */; };
 		EA0BC8BB18D5671D00552D00 /* sys_session_local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83618D5524D00552D00 /* sys_session_local.cpp */; };
-		EA0BC8BC18D5671D00552D00 /* sys_session_savegames.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83818D5524D00552D00 /* sys_session_savegames.cpp */; };
 		EA0BC8BD18D5671D00552D00 /* sys_signin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83A18D5524D00552D00 /* sys_signin.cpp */; };
 		EA0BC8BE18D5671D00552D00 /* sys_voicechat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83E18D5524D00552D00 /* sys_voicechat.cpp */; };
+		EA0BC8BF18D568AB00552D00 /* SWF_Bitstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7F318D5524D00552D00 /* SWF_Bitstream.cpp */; };
+		EA0BC8C018D568AB00552D00 /* SWF_Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7F518D5524D00552D00 /* SWF_Dictionary.cpp */; };
+		EA0BC8C118D568AB00552D00 /* SWF_Events.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7F718D5524D00552D00 /* SWF_Events.cpp */; };
+		EA0BC8C218D568AB00552D00 /* SWF_Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7F818D5524D00552D00 /* SWF_Image.cpp */; };
+		EA0BC8C318D568AB00552D00 /* SWF_Load.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7F918D5524D00552D00 /* SWF_Load.cpp */; };
+		EA0BC8C418D568AB00552D00 /* SWF_Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7FA18D5524D00552D00 /* SWF_Main.cpp */; };
+		EA0BC8C518D568AB00552D00 /* SWF_Names.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7FB18D5524D00552D00 /* SWF_Names.cpp */; };
+		EA0BC8C618D568AB00552D00 /* SWF_ParmList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7FC18D5524D00552D00 /* SWF_ParmList.cpp */; };
+		EA0BC8C718D568AB00552D00 /* SWF_PlaceObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7FE18D5524D00552D00 /* SWF_PlaceObject.cpp */; };
+		EA0BC8C818D568AB00552D00 /* SWF_ScriptFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80018D5524D00552D00 /* SWF_ScriptFunction.cpp */; };
+		EA0BC8C918D568AB00552D00 /* SWF_ScriptObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80218D5524D00552D00 /* SWF_ScriptObject.cpp */; };
+		EA0BC8CA18D568AB00552D00 /* SWF_ScriptVar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80418D5524D00552D00 /* SWF_ScriptVar.cpp */; };
+		EA0BC8CB18D568AB00552D00 /* SWF_ShapeParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80618D5524D00552D00 /* SWF_ShapeParser.cpp */; };
+		EA0BC8CC18D568AB00552D00 /* SWF_Shapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80818D5524D00552D00 /* SWF_Shapes.cpp */; };
+		EA0BC8CD18D568AB00552D00 /* SWF_Sounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80918D5524D00552D00 /* SWF_Sounds.cpp */; };
+		EA0BC8CE18D568AB00552D00 /* SWF_SpriteInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80A18D5524D00552D00 /* SWF_SpriteInstance.cpp */; };
+		EA0BC8CF18D568AB00552D00 /* SWF_Sprites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80C18D5524D00552D00 /* SWF_Sprites.cpp */; };
+		EA0BC8D018D568AB00552D00 /* SWF_Text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80E18D5524D00552D00 /* SWF_Text.cpp */; };
+		EA0BC8D118D568AB00552D00 /* SWF_TextInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC80F18D5524D00552D00 /* SWF_TextInstance.cpp */; };
+		EA0BC8D218D568AB00552D00 /* SWF_Zlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC81218D5524D00552D00 /* SWF_Zlib.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2207,43 +2226,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA0BC8B718D5671D00552D00 /* sys_localuser.cpp in Sources */,
+				EA0BC8C418D568AB00552D00 /* SWF_Main.cpp in Sources */,
 				EA0BC8A118D5535300552D00 /* ListWindow.cpp in Sources */,
+				EA0BC8C618D568AB00552D00 /* SWF_ParmList.cpp in Sources */,
 				EA0BC8AA18D5671D00552D00 /* LightweightCompression.cpp in Sources */,
 				EA0BC8B418D5671D00552D00 /* sys_lobby_snapshot.cpp in Sources */,
 				EA0BC89B18D5535300552D00 /* GameBearShootWindow.cpp in Sources */,
 				EA0BC8B918D5671D00552D00 /* sys_savegame.cpp in Sources */,
 				EA0BC8BE18D5671D00552D00 /* sys_voicechat.cpp in Sources */,
+				EA0BC8CB18D568AB00552D00 /* SWF_ShapeParser.cpp in Sources */,
+				EA0BC8C118D568AB00552D00 /* SWF_Events.cpp in Sources */,
 				EA0BC8BD18D5671D00552D00 /* sys_signin.cpp in Sources */,
 				EA0BC8AC18D5671D00552D00 /* Snapshot.cpp in Sources */,
 				EA0BC89618D5535300552D00 /* BindWindow.cpp in Sources */,
+				EA0BC8C018D568AB00552D00 /* SWF_Dictionary.cpp in Sources */,
+				EA0BC8C518D568AB00552D00 /* SWF_Names.cpp in Sources */,
 				EA0BC8AB18D5671D00552D00 /* PacketProcessor.cpp in Sources */,
+				EA0BC8CF18D568AB00552D00 /* SWF_Sprites.cpp in Sources */,
 				EA0BC8B618D5671D00552D00 /* sys_local.cpp in Sources */,
 				EA0BC8AE18D5671D00552D00 /* SnapshotProcessor.cpp in Sources */,
+				EA0BC8D018D568AB00552D00 /* SWF_Text.cpp in Sources */,
 				EA0BC8A718D5535300552D00 /* Window.cpp in Sources */,
 				EA0BC8BB18D5671D00552D00 /* sys_session_local.cpp in Sources */,
 				EA0BC8A418D5535300552D00 /* SimpleWindow.cpp in Sources */,
 				EA0BC8B318D5671D00552D00 /* sys_lobby_migrate.cpp in Sources */,
 				EA0BC89F18D5535300552D00 /* GuiScript.cpp in Sources */,
+				EA0BC8CA18D568AB00552D00 /* SWF_ScriptVar.cpp in Sources */,
 				EA0BC8A818D5535300552D00 /* Winvar.cpp in Sources */,
+				EA0BC8C918D568AB00552D00 /* SWF_ScriptObject.cpp in Sources */,
 				EA0BC4FB18D5521B00552D00 /* main.m in Sources */,
 				EA0BC89A18D5535300552D00 /* FieldWindow.cpp in Sources */,
 				EA0BC8A218D5535300552D00 /* RegExp.cpp in Sources */,
 				EA0BC8A518D5535300552D00 /* SliderWindow.cpp in Sources */,
+				EA0BC8D218D568AB00552D00 /* SWF_Zlib.cpp in Sources */,
 				EA0BC8B818D5671D00552D00 /* sys_profile.cpp in Sources */,
 				EA0BC89718D5535300552D00 /* ChoiceWindow.cpp in Sources */,
 				EA0BC8B518D5671D00552D00 /* sys_lobby_users.cpp in Sources */,
+				EA0BC8C718D568AB00552D00 /* SWF_PlaceObject.cpp in Sources */,
+				EA0BC8CE18D568AB00552D00 /* SWF_SpriteInstance.cpp in Sources */,
 				EA0BC89818D5535300552D00 /* DeviceContext.cpp in Sources */,
 				EA0BC89D18D5535300552D00 /* GameSSDWindow.cpp in Sources */,
 				EA0BC8B018D5671D00552D00 /* sys_dedicated_server_search.cpp in Sources */,
+				EA0BC8CD18D568AB00552D00 /* SWF_Sounds.cpp in Sources */,
 				EA0BC8A618D5535300552D00 /* UserInterface.cpp in Sources */,
 				EA0BC8A018D5535300552D00 /* ListGUI.cpp in Sources */,
-				EA0BC8BC18D5671D00552D00 /* sys_session_savegames.cpp in Sources */,
 				EA0BC8B118D5671D00552D00 /* sys_lobby.cpp in Sources */,
 				EA0BC8AD18D5671D00552D00 /* Snapshot_Jobs.cpp in Sources */,
 				EA0BC8AF18D5671D00552D00 /* sys_achievements.cpp in Sources */,
 				EA0BC8BA18D5671D00552D00 /* sys_session_callbacks.cpp in Sources */,
+				EA0BC8CC18D568AB00552D00 /* SWF_Shapes.cpp in Sources */,
 				EA0BC8B218D5671D00552D00 /* sys_lobby_backend_direct.cpp in Sources */,
+				EA0BC8BF18D568AB00552D00 /* SWF_Bitstream.cpp in Sources */,
+				EA0BC8C818D568AB00552D00 /* SWF_ScriptFunction.cpp in Sources */,
 				EA0BC8A318D5535300552D00 /* RenderWindow.cpp in Sources */,
+				EA0BC8C318D568AB00552D00 /* SWF_Load.cpp in Sources */,
+				EA0BC8D118D568AB00552D00 /* SWF_TextInstance.cpp in Sources */,
+				EA0BC8C218D568AB00552D00 /* SWF_Image.cpp in Sources */,
 				EA0BC89C18D5535300552D00 /* GameBustOutWindow.cpp in Sources */,
 				EA0BC89918D5535300552D00 /* EditWindow.cpp in Sources */,
 			);
