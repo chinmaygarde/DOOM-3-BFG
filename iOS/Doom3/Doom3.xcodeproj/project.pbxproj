@@ -128,6 +128,10 @@
 		EA0BC96018D5693F00552D00 /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC71C18D5524D00552D00 /* Thread.cpp */; };
 		EA0BC96218D5693F00552D00 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC71E18D5524D00552D00 /* Timer.cpp */; };
 		EA0BC96418D5693F00552D00 /* Token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC72018D5524D00552D00 /* Token.cpp */; };
+		EA824D1818D57A89004CCEFC /* AASFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC52B18D5524C00552D00 /* AASFile.cpp */; };
+		EA824D1918D57A89004CCEFC /* AASFile_optimize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC52E18D5524C00552D00 /* AASFile_optimize.cpp */; };
+		EA824D1A18D57A89004CCEFC /* AASFile_sample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC52F18D5524C00552D00 /* AASFile_sample.cpp */; };
+		EA824D1B18D57A89004CCEFC /* AASFileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC53018D5524C00552D00 /* AASFileManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,7 +168,6 @@
 		EA0BC52F18D5524C00552D00 /* AASFile_sample.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AASFile_sample.cpp; sourceTree = "<group>"; };
 		EA0BC53018D5524C00552D00 /* AASFileManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AASFileManager.cpp; sourceTree = "<group>"; };
 		EA0BC53118D5524C00552D00 /* AASFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AASFileManager.h; sourceTree = "<group>"; };
-		EA0BC53318D5524C00552D00 /* amplitude.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = amplitude.cpp; sourceTree = "<group>"; };
 		EA0BC53818D5524C00552D00 /* CollisionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollisionModel.h; sourceTree = "<group>"; };
 		EA0BC53918D5524C00552D00 /* CollisionModel_contacts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CollisionModel_contacts.cpp; sourceTree = "<group>"; };
 		EA0BC53A18D5524C00552D00 /* CollisionModel_contents.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CollisionModel_contents.cpp; sourceTree = "<group>"; };
@@ -1070,7 +1073,6 @@
 			isa = PBXGroup;
 			children = (
 				EA0BC52A18D5524C00552D00 /* aas */,
-				EA0BC53218D5524C00552D00 /* amplitude */,
 				EA0BC53718D5524C00552D00 /* cm */,
 				EA0BC54218D5524C00552D00 /* d3xp */,
 				EA0BC61B18D5524C00552D00 /* framework */,
@@ -1097,14 +1099,6 @@
 				EA0BC53118D5524C00552D00 /* AASFileManager.h */,
 			);
 			path = aas;
-			sourceTree = "<group>";
-		};
-		EA0BC53218D5524C00552D00 /* amplitude */ = {
-			isa = PBXGroup;
-			children = (
-				EA0BC53318D5524C00552D00 /* amplitude.cpp */,
-			);
-			path = amplitude;
 			sourceTree = "<group>";
 		};
 		EA0BC53718D5524C00552D00 /* cm */ = {
@@ -2294,6 +2288,7 @@
 				EA0BC90618D5693F00552D00 /* Surface_Polytope.cpp in Sources */,
 				EA0BC90818D5693F00552D00 /* Surface_SweptSpline.cpp in Sources */,
 				EA0BC90A18D5693F00552D00 /* TraceModel.cpp in Sources */,
+				EA824D1818D57A89004CCEFC /* AASFile.cpp in Sources */,
 				EA0BC90C18D5693F00552D00 /* Winding.cpp in Sources */,
 				EA0BC90E18D5693F00552D00 /* Winding2D.cpp in Sources */,
 				EA0BC91018D5693F00552D00 /* CRC32.cpp in Sources */,
@@ -2309,6 +2304,7 @@
 				EA0BC92718D5693F00552D00 /* Lcp.cpp in Sources */,
 				EA0BC92918D5693F00552D00 /* Math.cpp in Sources */,
 				EA0BC92B18D5693F00552D00 /* Matrix.cpp in Sources */,
+				EA824D1A18D57A89004CCEFC /* AASFile_sample.cpp in Sources */,
 				EA0BC92D18D5693F00552D00 /* MatX.cpp in Sources */,
 				EA0BC92F18D5693F00552D00 /* Ode.cpp in Sources */,
 				EA0BC93118D5693F00552D00 /* Plane.cpp in Sources */,
@@ -2328,6 +2324,7 @@
 				EA0BC95618D5693F00552D00 /* sys_assert.cpp in Sources */,
 				EA0BC96018D5693F00552D00 /* Thread.cpp in Sources */,
 				EA0BC96218D5693F00552D00 /* Timer.cpp in Sources */,
+				EA824D1B18D57A89004CCEFC /* AASFileManager.cpp in Sources */,
 				EA0BC96418D5693F00552D00 /* Token.cpp in Sources */,
 				EA0BC8B718D5671D00552D00 /* sys_localuser.cpp in Sources */,
 				EA0BC8C418D568AB00552D00 /* SWF_Main.cpp in Sources */,
@@ -2337,6 +2334,7 @@
 				EA0BC8B418D5671D00552D00 /* sys_lobby_snapshot.cpp in Sources */,
 				EA0BC89B18D5535300552D00 /* GameBearShootWindow.cpp in Sources */,
 				EA0BC8B918D5671D00552D00 /* sys_savegame.cpp in Sources */,
+				EA824D1918D57A89004CCEFC /* AASFile_optimize.cpp in Sources */,
 				EA0BC8BE18D5671D00552D00 /* sys_voicechat.cpp in Sources */,
 				EA0BC8CB18D568AB00552D00 /* SWF_ShapeParser.cpp in Sources */,
 				EA0BC8C118D568AB00552D00 /* SWF_Events.cpp in Sources */,
