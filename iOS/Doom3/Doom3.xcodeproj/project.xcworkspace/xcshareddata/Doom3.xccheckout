@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9ED8689D-438F-4885-AB37-4002CE06101F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Doom3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>41522F50-3969-43E5-A1BC-B0BD977A5DEC</key>
+		<string>ssh://github.com/chinmaygarde/DOOM-3-BFG.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Doom3/Doom3.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>41522F50-3969-43E5-A1BC-B0BD977A5DEC</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/chinmaygarde/DOOM-3-BFG.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>41522F50-3969-43E5-A1BC-B0BD977A5DEC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>41522F50-3969-43E5-A1BC-B0BD977A5DEC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DOOM-3-BFG</string>
+		</dict>
+	</array>
+</dict>
+</plist>
