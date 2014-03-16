@@ -47,7 +47,18 @@ void * Mem_Alloc16( const int size, const memTag_t tag ) {
 		return NULL;
 	}
 	const int paddedSize = ( size + 15 ) & ~15;
+#if defined(ID_WIN32)
 	return _aligned_malloc( paddedSize, 16 );
+#elif defined(ID_IOS)
+    void *memory = NULL;
+    if (posix_memalign( &memory, 16, paddedSize ) == 0) {
+        return memory;
+    }
+    
+    return NULL;
+#else 
+    #error Unknown Platform
+#endif
 }
 
 /*
@@ -59,7 +70,13 @@ void Mem_Free16( void *ptr ) {
 	if ( ptr == NULL ) {
 		return;
 	}
+#if defined(ID_WIN32)
 	_aligned_free( ptr );
+#elif defined(ID_IOS)
+    free( ptr );
+#else
+    #error Unknown Platform
+#endif
 }
 
 /*

@@ -44,8 +44,11 @@ If you have questions concerning this license or the applicable additional terms
 #include <math.h>
 #include <string.h>
 
+#if defined (ID_WIN32)
 #include <basetsd.h>				// for UINT_PTR
 #include <intrin.h>
+#endif
+
 #pragma warning( disable : 4100 )	// unreferenced formal parameter
 #pragma warning( disable : 4127 )	// conditional expression is constant
 

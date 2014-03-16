@@ -74,8 +74,14 @@ bool AssertFailed( const char * file, int line, const char * expression ) {
 	}
 
 	idLib::Warning( "ASSERTION FAILED! %s(%d): '%s'", file, line, expression );
-
-	if ( IsDebuggerPresent() || com_assertOutOfDebugger.GetBool() ) {
+    bool debugger = false;
+    
+    // FIXME: On iOS
+#if defined(ID_WIN32)
+    debugger = IsDebuggerPresent();
+#endif
+    
+	if ( debugger || com_assertOutOfDebugger.GetBool() ) {
 			__debugbreak();
 	}
 
