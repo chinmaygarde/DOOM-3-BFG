@@ -82,6 +82,8 @@ typedef enum {
 
 #define OPERATION_SET 1
 
+#if defined(ID_WIN32)
+
 #include <dxsdkver.h>
 
 #include <xaudio2.h>
@@ -92,7 +94,17 @@ typedef enum {
 #include "XAudio2/XA2_SoundVoice.h"
 #include "XAudio2/XA2_SoundHardware.h"
 
+#elif defined(ID_IOS)
 
+// FIXME
+class idSoundVoice;
+class idSoundHardware;
+
+#else
+
+#error Unknown Platform
+
+#endif
 
 //------------------------
 // Listener data
@@ -436,8 +448,10 @@ public:
 			sample( NULL ),
 			bufferNumber( 0 )
 		{ }
-		idSoundVoice_XAudio2 *	voice;
-		idSoundSample_XAudio2 * sample;
+
+		idSoundVoice *	voice;
+		idSoundSample * sample;
+
 		int bufferNumber;
 	};
 
@@ -456,7 +470,9 @@ public:
 	idList<idSoundSample *, TAG_AUDIO>		samples;
 	idHashIndex					sampleHash;
 
+#if defined(ID_WIN32)
 	idSoundHardware				hardware;
+#endif
 
 	idRandom2					random;
 	

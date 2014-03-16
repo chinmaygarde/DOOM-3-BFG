@@ -132,6 +132,119 @@
 		EA824D1918D57A89004CCEFC /* AASFile_optimize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC52E18D5524C00552D00 /* AASFile_optimize.cpp */; };
 		EA824D1A18D57A89004CCEFC /* AASFile_sample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC52F18D5524C00552D00 /* AASFile_sample.cpp */; };
 		EA824D1B18D57A89004CCEFC /* AASFileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC53018D5524C00552D00 /* AASFileManager.cpp */; };
+		EA824D1D18D57B2B004CCEFC /* AutoRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC72518D5524D00552D00 /* AutoRender.cpp */; };
+		EA824D1F18D57B2B004CCEFC /* AutoRenderBink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC72718D5524D00552D00 /* AutoRenderBink.cpp */; };
+		EA824D2118D57B2B004CCEFC /* BinaryImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC72918D5524D00552D00 /* BinaryImage.cpp */; };
+		EA824D2418D57B2B004CCEFC /* BoundsTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC72C18D5524D00552D00 /* BoundsTrack.cpp */; };
+		EA824D2618D57B2B004CCEFC /* BufferObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC72E18D5524D00552D00 /* BufferObject.cpp */; };
+		EA824D2818D57B2B004CCEFC /* Cinematic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC73018D5524D00552D00 /* Cinematic.cpp */; };
+		EA824D2A18D57B2B004CCEFC /* ColorSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC73318D5524D00552D00 /* ColorSpace.cpp */; };
+		EA824D2E18D57B2B004CCEFC /* DXTDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC73818D5524D00552D00 /* DXTDecoder.cpp */; };
+		EA824D2F18D57B2B004CCEFC /* DXTEncoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC73918D5524D00552D00 /* DXTEncoder.cpp */; };
+		EA824D3018D57B2B004CCEFC /* DXTEncoder_SSE2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC73A18D5524D00552D00 /* DXTEncoder_SSE2.cpp */; };
+		EA824D3118D57B2B004CCEFC /* Font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC73B18D5524D00552D00 /* Font.cpp */; };
+		EA824D3318D57B2B004CCEFC /* GLMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC73D18D5524D00552D00 /* GLMatrix.cpp */; };
+		EA824D3718D57B2B004CCEFC /* GuiModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC74118D5524D00552D00 /* GuiModel.cpp */; };
+		EA824D3A18D57B2B004CCEFC /* Image_files.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC74418D5524D00552D00 /* Image_files.cpp */; };
+		EA824D3B18D57B2B004CCEFC /* Image_intrinsic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC74518D5524D00552D00 /* Image_intrinsic.cpp */; };
+		EA824D3C18D57B2B004CCEFC /* Image_load.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC74618D5524D00552D00 /* Image_load.cpp */; };
+		EA824D3D18D57B2B004CCEFC /* Image_process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC74718D5524D00552D00 /* Image_process.cpp */; };
+		EA824D3E18D57B2B004CCEFC /* Image_program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC74818D5524D00552D00 /* Image_program.cpp */; };
+		EA824D3F18D57B2B004CCEFC /* ImageManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC74918D5524D00552D00 /* ImageManager.cpp */; };
+		EA824D4118D57B2B004CCEFC /* Interaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC74B18D5524D00552D00 /* Interaction.cpp */; };
+		EA824D4318D57B2B004CCEFC /* DynamicShadowVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC74F18D5524D00552D00 /* DynamicShadowVolume.cpp */; };
+		EA824D4618D57B2B004CCEFC /* PreLightShadowVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC75318D5524D00552D00 /* PreLightShadowVolume.cpp */; };
+		EA824D4918D57B2B004CCEFC /* ShadowShared.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC75618D5524D00552D00 /* ShadowShared.cpp */; };
+		EA824D4B18D57B2B004CCEFC /* StaticShadowVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC75918D5524D00552D00 /* StaticShadowVolume.cpp */; };
+		EA824D4E18D57B2B004CCEFC /* jcapimin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC75D18D5524D00552D00 /* jcapimin.cpp */; };
+		EA824D4F18D57B2B004CCEFC /* jcapistd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC75E18D5524D00552D00 /* jcapistd.cpp */; };
+		EA824D5018D57B2B004CCEFC /* jccoefct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC75F18D5524D00552D00 /* jccoefct.cpp */; };
+		EA824D5118D57B2B004CCEFC /* jccolor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76018D5524D00552D00 /* jccolor.cpp */; };
+		EA824D5218D57B2B004CCEFC /* jcdctmgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76118D5524D00552D00 /* jcdctmgr.cpp */; };
+		EA824D5318D57B2B004CCEFC /* jchuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76218D5524D00552D00 /* jchuff.cpp */; };
+		EA824D5518D57B2B004CCEFC /* jcinit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76418D5524D00552D00 /* jcinit.cpp */; };
+		EA824D5618D57B2B004CCEFC /* jcmainct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76518D5524D00552D00 /* jcmainct.cpp */; };
+		EA824D5718D57B2B004CCEFC /* jcmarker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76618D5524D00552D00 /* jcmarker.cpp */; };
+		EA824D5818D57B2B004CCEFC /* jcmaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76718D5524D00552D00 /* jcmaster.cpp */; };
+		EA824D5918D57B2B004CCEFC /* jcomapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76818D5524D00552D00 /* jcomapi.cpp */; };
+		EA824D5B18D57B2B004CCEFC /* jcparam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76A18D5524D00552D00 /* jcparam.cpp */; };
+		EA824D5C18D57B2B004CCEFC /* jcphuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76B18D5524D00552D00 /* jcphuff.cpp */; };
+		EA824D5D18D57B2B004CCEFC /* jcprepct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76C18D5524D00552D00 /* jcprepct.cpp */; };
+		EA824D5E18D57B2B004CCEFC /* jcsample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76D18D5524D00552D00 /* jcsample.cpp */; };
+		EA824D5F18D57B2B004CCEFC /* jctrans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76E18D5524D00552D00 /* jctrans.cpp */; };
+		EA824D6018D57B2B004CCEFC /* jdapimin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC76F18D5524D00552D00 /* jdapimin.cpp */; };
+		EA824D6118D57B2B004CCEFC /* jdapistd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77018D5524D00552D00 /* jdapistd.cpp */; };
+		EA824D6218D57B2B004CCEFC /* jdatadst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77118D5524D00552D00 /* jdatadst.cpp */; };
+		EA824D6318D57B2B004CCEFC /* jdatasrc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77218D5524D00552D00 /* jdatasrc.cpp */; };
+		EA824D6418D57B2B004CCEFC /* jdcoefct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77318D5524D00552D00 /* jdcoefct.cpp */; };
+		EA824D6518D57B2B004CCEFC /* jdcolor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77418D5524D00552D00 /* jdcolor.cpp */; };
+		EA824D6718D57B2B004CCEFC /* jddctmgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77618D5524D00552D00 /* jddctmgr.cpp */; };
+		EA824D6818D57B2B004CCEFC /* jdhuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77718D5524D00552D00 /* jdhuff.cpp */; };
+		EA824D6A18D57B2B004CCEFC /* jdinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77918D5524D00552D00 /* jdinput.cpp */; };
+		EA824D6B18D57B2B004CCEFC /* jdmainct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77A18D5524D00552D00 /* jdmainct.cpp */; };
+		EA824D6C18D57B2B004CCEFC /* jdmarker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77B18D5524D00552D00 /* jdmarker.cpp */; };
+		EA824D6D18D57B2B004CCEFC /* jdmaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77C18D5524D00552D00 /* jdmaster.cpp */; };
+		EA824D6E18D57B2B004CCEFC /* jdmerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77D18D5524D00552D00 /* jdmerge.cpp */; };
+		EA824D6F18D57B2B004CCEFC /* jdphuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77E18D5524D00552D00 /* jdphuff.cpp */; };
+		EA824D7018D57B2B004CCEFC /* jdpostct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC77F18D5524D00552D00 /* jdpostct.cpp */; };
+		EA824D7118D57B2B004CCEFC /* jdsample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78018D5524D00552D00 /* jdsample.cpp */; };
+		EA824D7218D57B2B004CCEFC /* jdtrans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78118D5524D00552D00 /* jdtrans.cpp */; };
+		EA824D7318D57B2B004CCEFC /* jerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78218D5524D00552D00 /* jerror.cpp */; };
+		EA824D7518D57B2B004CCEFC /* jfdctflt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78418D5524D00552D00 /* jfdctflt.cpp */; };
+		EA824D7618D57B2B004CCEFC /* jfdctfst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78518D5524D00552D00 /* jfdctfst.cpp */; };
+		EA824D7718D57B2B004CCEFC /* jfdctint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78618D5524D00552D00 /* jfdctint.cpp */; };
+		EA824D7818D57B2B004CCEFC /* jidctflt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78718D5524D00552D00 /* jidctflt.cpp */; };
+		EA824D7918D57B2B004CCEFC /* jidctfst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78818D5524D00552D00 /* jidctfst.cpp */; };
+		EA824D7A18D57B2B004CCEFC /* jidctint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78918D5524D00552D00 /* jidctint.cpp */; };
+		EA824D7B18D57B2B004CCEFC /* jidctred.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78A18D5524D00552D00 /* jidctred.cpp */; };
+		EA824D7E18D57B2B004CCEFC /* jmemansi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78D18D5524D00552D00 /* jmemansi.cpp */; };
+		EA824D8018D57B2B004CCEFC /* jmemmgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC78F18D5524D00552D00 /* jmemmgr.cpp */; };
+		EA824D8118D57B2B004CCEFC /* jmemname.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC79018D5524D00552D00 /* jmemname.cpp */; };
+		EA824D8218D57B2B004CCEFC /* jmemnobs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC79118D5524D00552D00 /* jmemnobs.cpp */; };
+		EA824D8818D57B2B004CCEFC /* jquant1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC79718D5524D00552D00 /* jquant1.cpp */; };
+		EA824D8918D57B2B004CCEFC /* jquant2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC79818D5524D00552D00 /* jquant2.cpp */; };
+		EA824D8A18D57B2B004CCEFC /* jutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC79918D5524D00552D00 /* jutils.cpp */; };
+		EA824D8C18D57B2B004CCEFC /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC79B18D5524D00552D00 /* Material.cpp */; };
+		EA824D8E18D57B2B004CCEFC /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC79D18D5524D00552D00 /* Model.cpp */; };
+		EA824D9018D57B2B004CCEFC /* Model_ase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC79F18D5524D00552D00 /* Model_ase.cpp */; };
+		EA824D9218D57B2B004CCEFC /* Model_beam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7A118D5524D00552D00 /* Model_beam.cpp */; };
+		EA824D9318D57B2B004CCEFC /* Model_liquid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7A218D5524D00552D00 /* Model_liquid.cpp */; };
+		EA824D9518D57B2B004CCEFC /* Model_lwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7A418D5524D00552D00 /* Model_lwo.cpp */; };
+		EA824D9718D57B2B004CCEFC /* Model_ma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7A618D5524D00552D00 /* Model_ma.cpp */; };
+		EA824D9918D57B2B004CCEFC /* Model_md3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7A818D5524D00552D00 /* Model_md3.cpp */; };
+		EA824D9B18D57B2B004CCEFC /* Model_md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7AA18D5524D00552D00 /* Model_md5.cpp */; };
+		EA824D9C18D57B2B004CCEFC /* Model_prt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7AB18D5524D00552D00 /* Model_prt.cpp */; };
+		EA824D9D18D57B2B004CCEFC /* Model_sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7AC18D5524D00552D00 /* Model_sprite.cpp */; };
+		EA824D9E18D57B2B004CCEFC /* ModelDecal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7AD18D5524D00552D00 /* ModelDecal.cpp */; };
+		EA824DA018D57B2B004CCEFC /* ModelManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7AF18D5524D00552D00 /* ModelManager.cpp */; };
+		EA824DA218D57B2B004CCEFC /* ModelOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7B118D5524D00552D00 /* ModelOverlay.cpp */; };
+		EA824DA418D57B2C004CCEFC /* gl_backend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7B418D5524D00552D00 /* gl_backend.cpp */; };
+		EA824DA518D57B2C004CCEFC /* gl_GraphicsAPIWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7B518D5524D00552D00 /* gl_GraphicsAPIWrapper.cpp */; };
+		EA824DA618D57B2C004CCEFC /* gl_Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7B618D5524D00552D00 /* gl_Image.cpp */; };
+		EA824DAC18D57B2C004CCEFC /* RenderEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7BC18D5524D00552D00 /* RenderEntity.cpp */; };
+		EA824DAD18D57B2C004CCEFC /* RenderLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7BD18D5524D00552D00 /* RenderLog.cpp */; };
+		EA824DAF18D57B2C004CCEFC /* RenderProgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7BF18D5524D00552D00 /* RenderProgs.cpp */; };
+		EA824DB118D57B2C004CCEFC /* RenderProgs_GLSL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7C118D5524D00552D00 /* RenderProgs_GLSL.cpp */; };
+		EA824DB218D57B2C004CCEFC /* RenderSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7C218D5524D00552D00 /* RenderSystem.cpp */; };
+		EA824DB418D57B2C004CCEFC /* RenderSystem_init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7C418D5524D00552D00 /* RenderSystem_init.cpp */; };
+		EA824DB618D57B2C004CCEFC /* RenderWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7C618D5524D00552D00 /* RenderWorld.cpp */; };
+		EA824DB818D57B2C004CCEFC /* RenderWorld_defs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7C818D5524D00552D00 /* RenderWorld_defs.cpp */; };
+		EA824DB918D57B2C004CCEFC /* RenderWorld_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7C918D5524D00552D00 /* RenderWorld_demo.cpp */; };
+		EA824DBA18D57B2C004CCEFC /* RenderWorld_load.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7CA18D5524D00552D00 /* RenderWorld_load.cpp */; };
+		EA824DBC18D57B2C004CCEFC /* RenderWorld_portals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7CC18D5524D00552D00 /* RenderWorld_portals.cpp */; };
+		EA824DBD18D57B2C004CCEFC /* ResolutionScale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7CD18D5524D00552D00 /* ResolutionScale.cpp */; };
+		EA824DBF18D57B2C004CCEFC /* ScreenRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7CF18D5524D00552D00 /* ScreenRect.cpp */; };
+		EA824DC218D57B2C004CCEFC /* tr_backend_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7D218D5524D00552D00 /* tr_backend_draw.cpp */; };
+		EA824DC318D57B2C004CCEFC /* tr_backend_rendertools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7D318D5524D00552D00 /* tr_backend_rendertools.cpp */; };
+		EA824DC418D57B2C004CCEFC /* tr_frontend_addlights.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7D418D5524D00552D00 /* tr_frontend_addlights.cpp */; };
+		EA824DC518D57B2C004CCEFC /* tr_frontend_addmodels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7D518D5524D00552D00 /* tr_frontend_addmodels.cpp */; };
+		EA824DC618D57B2C004CCEFC /* tr_frontend_deform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7D618D5524D00552D00 /* tr_frontend_deform.cpp */; };
+		EA824DC718D57B2C004CCEFC /* tr_frontend_guisurf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7D718D5524D00552D00 /* tr_frontend_guisurf.cpp */; };
+		EA824DC818D57B2C004CCEFC /* tr_frontend_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7D818D5524D00552D00 /* tr_frontend_main.cpp */; };
+		EA824DC918D57B2C004CCEFC /* tr_frontend_subview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7D918D5524D00552D00 /* tr_frontend_subview.cpp */; };
+		EA824DCB18D57B2C004CCEFC /* tr_trace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7DB18D5524D00552D00 /* tr_trace.cpp */; };
+		EA824DCC18D57B2C004CCEFC /* tr_trisurf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7DC18D5524D00552D00 /* tr_trisurf.cpp */; };
+		EA824DCD18D57B2C004CCEFC /* VertexCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC7DD18D5524D00552D00 /* VertexCache.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2271,6 +2384,119 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA824D1D18D57B2B004CCEFC /* AutoRender.cpp in Sources */,
+				EA824D1F18D57B2B004CCEFC /* AutoRenderBink.cpp in Sources */,
+				EA824D2118D57B2B004CCEFC /* BinaryImage.cpp in Sources */,
+				EA824D2418D57B2B004CCEFC /* BoundsTrack.cpp in Sources */,
+				EA824D2618D57B2B004CCEFC /* BufferObject.cpp in Sources */,
+				EA824D2818D57B2B004CCEFC /* Cinematic.cpp in Sources */,
+				EA824D2A18D57B2B004CCEFC /* ColorSpace.cpp in Sources */,
+				EA824D2E18D57B2B004CCEFC /* DXTDecoder.cpp in Sources */,
+				EA824D2F18D57B2B004CCEFC /* DXTEncoder.cpp in Sources */,
+				EA824D3018D57B2B004CCEFC /* DXTEncoder_SSE2.cpp in Sources */,
+				EA824D3118D57B2B004CCEFC /* Font.cpp in Sources */,
+				EA824D3318D57B2B004CCEFC /* GLMatrix.cpp in Sources */,
+				EA824D3718D57B2B004CCEFC /* GuiModel.cpp in Sources */,
+				EA824D3A18D57B2B004CCEFC /* Image_files.cpp in Sources */,
+				EA824D3B18D57B2B004CCEFC /* Image_intrinsic.cpp in Sources */,
+				EA824D3C18D57B2B004CCEFC /* Image_load.cpp in Sources */,
+				EA824D3D18D57B2B004CCEFC /* Image_process.cpp in Sources */,
+				EA824D3E18D57B2B004CCEFC /* Image_program.cpp in Sources */,
+				EA824D3F18D57B2B004CCEFC /* ImageManager.cpp in Sources */,
+				EA824D4118D57B2B004CCEFC /* Interaction.cpp in Sources */,
+				EA824D4318D57B2B004CCEFC /* DynamicShadowVolume.cpp in Sources */,
+				EA824D4618D57B2B004CCEFC /* PreLightShadowVolume.cpp in Sources */,
+				EA824D4918D57B2B004CCEFC /* ShadowShared.cpp in Sources */,
+				EA824D4B18D57B2B004CCEFC /* StaticShadowVolume.cpp in Sources */,
+				EA824D4E18D57B2B004CCEFC /* jcapimin.cpp in Sources */,
+				EA824D4F18D57B2B004CCEFC /* jcapistd.cpp in Sources */,
+				EA824D5018D57B2B004CCEFC /* jccoefct.cpp in Sources */,
+				EA824D5118D57B2B004CCEFC /* jccolor.cpp in Sources */,
+				EA824D5218D57B2B004CCEFC /* jcdctmgr.cpp in Sources */,
+				EA824D5318D57B2B004CCEFC /* jchuff.cpp in Sources */,
+				EA824D5518D57B2B004CCEFC /* jcinit.cpp in Sources */,
+				EA824D5618D57B2B004CCEFC /* jcmainct.cpp in Sources */,
+				EA824D5718D57B2B004CCEFC /* jcmarker.cpp in Sources */,
+				EA824D5818D57B2B004CCEFC /* jcmaster.cpp in Sources */,
+				EA824D5918D57B2B004CCEFC /* jcomapi.cpp in Sources */,
+				EA824D5B18D57B2B004CCEFC /* jcparam.cpp in Sources */,
+				EA824D5C18D57B2B004CCEFC /* jcphuff.cpp in Sources */,
+				EA824D5D18D57B2B004CCEFC /* jcprepct.cpp in Sources */,
+				EA824D5E18D57B2B004CCEFC /* jcsample.cpp in Sources */,
+				EA824D5F18D57B2B004CCEFC /* jctrans.cpp in Sources */,
+				EA824D6018D57B2B004CCEFC /* jdapimin.cpp in Sources */,
+				EA824D6118D57B2B004CCEFC /* jdapistd.cpp in Sources */,
+				EA824D6218D57B2B004CCEFC /* jdatadst.cpp in Sources */,
+				EA824D6318D57B2B004CCEFC /* jdatasrc.cpp in Sources */,
+				EA824D6418D57B2B004CCEFC /* jdcoefct.cpp in Sources */,
+				EA824D6518D57B2B004CCEFC /* jdcolor.cpp in Sources */,
+				EA824D6718D57B2B004CCEFC /* jddctmgr.cpp in Sources */,
+				EA824D6818D57B2B004CCEFC /* jdhuff.cpp in Sources */,
+				EA824D6A18D57B2B004CCEFC /* jdinput.cpp in Sources */,
+				EA824D6B18D57B2B004CCEFC /* jdmainct.cpp in Sources */,
+				EA824D6C18D57B2B004CCEFC /* jdmarker.cpp in Sources */,
+				EA824D6D18D57B2B004CCEFC /* jdmaster.cpp in Sources */,
+				EA824D6E18D57B2B004CCEFC /* jdmerge.cpp in Sources */,
+				EA824D6F18D57B2B004CCEFC /* jdphuff.cpp in Sources */,
+				EA824D7018D57B2B004CCEFC /* jdpostct.cpp in Sources */,
+				EA824D7118D57B2B004CCEFC /* jdsample.cpp in Sources */,
+				EA824D7218D57B2B004CCEFC /* jdtrans.cpp in Sources */,
+				EA824D7318D57B2B004CCEFC /* jerror.cpp in Sources */,
+				EA824D7518D57B2B004CCEFC /* jfdctflt.cpp in Sources */,
+				EA824D7618D57B2B004CCEFC /* jfdctfst.cpp in Sources */,
+				EA824D7718D57B2B004CCEFC /* jfdctint.cpp in Sources */,
+				EA824D7818D57B2B004CCEFC /* jidctflt.cpp in Sources */,
+				EA824D7918D57B2B004CCEFC /* jidctfst.cpp in Sources */,
+				EA824D7A18D57B2B004CCEFC /* jidctint.cpp in Sources */,
+				EA824D7B18D57B2B004CCEFC /* jidctred.cpp in Sources */,
+				EA824D7E18D57B2B004CCEFC /* jmemansi.cpp in Sources */,
+				EA824D8018D57B2B004CCEFC /* jmemmgr.cpp in Sources */,
+				EA824D8118D57B2B004CCEFC /* jmemname.cpp in Sources */,
+				EA824D8218D57B2B004CCEFC /* jmemnobs.cpp in Sources */,
+				EA824D8818D57B2B004CCEFC /* jquant1.cpp in Sources */,
+				EA824D8918D57B2B004CCEFC /* jquant2.cpp in Sources */,
+				EA824D8A18D57B2B004CCEFC /* jutils.cpp in Sources */,
+				EA824D8C18D57B2B004CCEFC /* Material.cpp in Sources */,
+				EA824D8E18D57B2B004CCEFC /* Model.cpp in Sources */,
+				EA824D9018D57B2B004CCEFC /* Model_ase.cpp in Sources */,
+				EA824D9218D57B2B004CCEFC /* Model_beam.cpp in Sources */,
+				EA824D9318D57B2B004CCEFC /* Model_liquid.cpp in Sources */,
+				EA824D9518D57B2B004CCEFC /* Model_lwo.cpp in Sources */,
+				EA824D9718D57B2B004CCEFC /* Model_ma.cpp in Sources */,
+				EA824D9918D57B2B004CCEFC /* Model_md3.cpp in Sources */,
+				EA824D9B18D57B2B004CCEFC /* Model_md5.cpp in Sources */,
+				EA824D9C18D57B2B004CCEFC /* Model_prt.cpp in Sources */,
+				EA824D9D18D57B2B004CCEFC /* Model_sprite.cpp in Sources */,
+				EA824D9E18D57B2B004CCEFC /* ModelDecal.cpp in Sources */,
+				EA824DA018D57B2B004CCEFC /* ModelManager.cpp in Sources */,
+				EA824DA218D57B2B004CCEFC /* ModelOverlay.cpp in Sources */,
+				EA824DA418D57B2C004CCEFC /* gl_backend.cpp in Sources */,
+				EA824DA518D57B2C004CCEFC /* gl_GraphicsAPIWrapper.cpp in Sources */,
+				EA824DA618D57B2C004CCEFC /* gl_Image.cpp in Sources */,
+				EA824DAC18D57B2C004CCEFC /* RenderEntity.cpp in Sources */,
+				EA824DAD18D57B2C004CCEFC /* RenderLog.cpp in Sources */,
+				EA824DAF18D57B2C004CCEFC /* RenderProgs.cpp in Sources */,
+				EA824DB118D57B2C004CCEFC /* RenderProgs_GLSL.cpp in Sources */,
+				EA824DB218D57B2C004CCEFC /* RenderSystem.cpp in Sources */,
+				EA824DB418D57B2C004CCEFC /* RenderSystem_init.cpp in Sources */,
+				EA824DB618D57B2C004CCEFC /* RenderWorld.cpp in Sources */,
+				EA824DB818D57B2C004CCEFC /* RenderWorld_defs.cpp in Sources */,
+				EA824DB918D57B2C004CCEFC /* RenderWorld_demo.cpp in Sources */,
+				EA824DBA18D57B2C004CCEFC /* RenderWorld_load.cpp in Sources */,
+				EA824DBC18D57B2C004CCEFC /* RenderWorld_portals.cpp in Sources */,
+				EA824DBD18D57B2C004CCEFC /* ResolutionScale.cpp in Sources */,
+				EA824DBF18D57B2C004CCEFC /* ScreenRect.cpp in Sources */,
+				EA824DC218D57B2C004CCEFC /* tr_backend_draw.cpp in Sources */,
+				EA824DC318D57B2C004CCEFC /* tr_backend_rendertools.cpp in Sources */,
+				EA824DC418D57B2C004CCEFC /* tr_frontend_addlights.cpp in Sources */,
+				EA824DC518D57B2C004CCEFC /* tr_frontend_addmodels.cpp in Sources */,
+				EA824DC618D57B2C004CCEFC /* tr_frontend_deform.cpp in Sources */,
+				EA824DC718D57B2C004CCEFC /* tr_frontend_guisurf.cpp in Sources */,
+				EA824DC818D57B2C004CCEFC /* tr_frontend_main.cpp in Sources */,
+				EA824DC918D57B2C004CCEFC /* tr_frontend_subview.cpp in Sources */,
+				EA824DCB18D57B2C004CCEFC /* tr_trace.cpp in Sources */,
+				EA824DCC18D57B2C004CCEFC /* tr_trisurf.cpp in Sources */,
+				EA824DCD18D57B2C004CCEFC /* VertexCache.cpp in Sources */,
 				EA0BC8D918D5693F00552D00 /* Base64.cpp in Sources */,
 				EA0BC8DB18D5693F00552D00 /* BitMsg.cpp in Sources */,
 				EA0BC8DD18D5693F00552D00 /* Bounds.cpp in Sources */,
