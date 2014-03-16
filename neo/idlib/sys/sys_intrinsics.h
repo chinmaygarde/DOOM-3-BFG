@@ -97,7 +97,7 @@ ID_FORCE_INLINE void FlushCacheLine( const void * ptr, int offset ) {
 
 ID_INLINE void Prefetch( const void * ptr, int offset ) {}
 ID_INLINE void ZeroCacheLine( void * ptr, int offset ) {
-	byte * bytePtr = (byte *)( ( ( (UINT_PTR) ( ptr ) ) + ( offset ) ) & ~( CACHE_LINE_SIZE - 1 ) );
+	byte * bytePtr = (byte *)( ( ( (unsigned int) ( ptr ) ) + ( offset ) ) & ~( CACHE_LINE_SIZE - 1 ) );
 	memset( bytePtr, 0, CACHE_LINE_SIZE );
 }
 ID_INLINE void FlushCacheLine( const void * ptr, int offset ) {}
@@ -150,6 +150,8 @@ ID_INLINE_EXTERN int CACHE_LINE_CLEAR_OVERFLOW_COUNT( int size ) {
 	PC Windows
 ================================================
 */
+
+#if defined(ID_PC_WIN)
 
 #if !defined( R_SHUFFLE_D )
 #define R_SHUFFLE_D( x, y, z, w )	(( (w) & 3 ) << 6 | ( (z) & 3 ) << 4 | ( (y) & 3 ) << 2 | ( (x) & 3 ))
@@ -216,5 +218,7 @@ ID_FORCE_INLINE_EXTERN __m128 _mm_div16_ps( __m128 x, __m128 y ) {
 #define _mm_loadu_bounds_0( bounds )		_mm_perm_ps( _mm_loadh_pi( _mm_load_ss( & bounds[0].x ), (__m64 *) & bounds[0].y ), _MM_SHUFFLE( 1, 3, 2, 0 ) )
 // load idBounds::GetMaxs()
 #define _mm_loadu_bounds_1( bounds )		_mm_perm_ps( _mm_loadh_pi( _mm_load_ss( & bounds[1].x ), (__m64 *) & bounds[1].y ), _MM_SHUFFLE( 1, 3, 2, 0 ) )
+
+#endif /* ID_PC_WIN */
 
 #endif	// !__SYS_INTRIINSICS_H__
