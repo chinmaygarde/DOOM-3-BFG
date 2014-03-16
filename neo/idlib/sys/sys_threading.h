@@ -38,6 +38,8 @@ If you have questions concerning this license or the applicable additional terms
 ================================================================================================
 */
 
+#if defined(ID_WIN32)
+
 	typedef CRITICAL_SECTION		mutexHandle_t;
 	typedef HANDLE					signalHandle_t;
 	typedef LONG					interlockedInt_t;
@@ -48,8 +50,22 @@ If you have questions concerning this license or the applicable additional terms
 	#pragma intrinsic(_ReadWriteBarrier)
 	#define SYS_MEMORYBARRIER		_ReadWriteBarrier(); MemoryBarrier()
 
+#elif defined(ID_IOS)
 
+#include <sys/types.h>
 
+    typedef pthread_mutex_t         mutexHandle_t;
+    typedef uintptr_t               signalHandle_t; /* FIXME */
+    typedef long					interlockedInt_t;
+
+    #include <libkern/OSAtomic.h>
+    #define SYS_MEMORYBARRIER		OSMemoryBarrier();
+
+#else
+
+#error Unknown Platform
+
+#endif
 
 
 /*
@@ -61,6 +77,7 @@ If you have questions concerning this license or the applicable additional terms
 ================================================================================================
 */
 
+#if defined(ID_WIN32)
 
 	class idSysThreadLocalStorage {
 	public:
@@ -84,8 +101,40 @@ If you have questions concerning this license or the applicable additional terms
 		DWORD	tlsIndex;
 	};
 
-#define ID_TLS idSysThreadLocalStorage
+#elif defined(ID_IOS)
 
+#include <pthread.h>
+
+    class idSysThreadLocalStorage {
+    public:
+        idSysThreadLocalStorage() {
+            pthread_key_create(&tlsKey, NULL);
+        }
+        idSysThreadLocalStorage( const ptrdiff_t &val ) {
+            pthread_key_create(&tlsKey, NULL);
+            pthread_setspecific(tlsKey, (void *)val);
+        }
+        ~idSysThreadLocalStorage() {
+            pthread_key_delete(tlsKey);
+        }
+        operator ptrdiff_t() {
+            return (ptrdiff_t)pthread_getspecific( tlsKey );
+        }
+        const ptrdiff_t & operator = ( const ptrdiff_t &val ) {
+            pthread_setspecific(tlsKey, (void *)val);
+            return val;
+        }
+    private:
+        pthread_key_t	tlsKey;
+    };
+
+#else
+
+#error Unknown Platform
+
+#endif
+
+#define ID_TLS idSysThreadLocalStorage
 
 #endif // __TYPEINFOGEN__
 
