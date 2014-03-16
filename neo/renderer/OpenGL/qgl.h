@@ -32,8 +32,24 @@ If you have questions concerning this license or the applicable additional terms
 #ifndef __QGL_H__
 #define __QGL_H__
 
+#if defined(ID_WIN32)
 
-#include <gl/gl.h>
+    #include <gl/gl.h>
+
+#elif defined(ID_IOS)
+
+    #include <OpenGLES/ES3/gl.h>
+    #include <OpenGLES/ES3/glext.h>
+
+    // The following are not present on ES3 but make the glext include work
+    typedef double GLdouble;
+    typedef double GLclampd;
+
+#else
+
+#error Unknown Platform
+
+#endif
 
 
 #ifndef APIENTRY
