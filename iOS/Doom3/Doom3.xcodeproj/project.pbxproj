@@ -26,7 +26,6 @@
 		EA0BC89B18D5535300552D00 /* GameBearShootWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC86918D5524D00552D00 /* GameBearShootWindow.cpp */; };
 		EA0BC89C18D5535300552D00 /* GameBustOutWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC86B18D5524D00552D00 /* GameBustOutWindow.cpp */; };
 		EA0BC89D18D5535300552D00 /* GameSSDWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC86D18D5524D00552D00 /* GameSSDWindow.cpp */; };
-		EA0BC89E18D5535300552D00 /* GameWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC86F18D5524D00552D00 /* GameWindow.cpp */; };
 		EA0BC89F18D5535300552D00 /* GuiScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC87118D5524D00552D00 /* GuiScript.cpp */; };
 		EA0BC8A018D5535300552D00 /* ListGUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC87318D5524D00552D00 /* ListGUI.cpp */; };
 		EA0BC8A118D5535300552D00 /* ListWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC87618D5524D00552D00 /* ListWindow.cpp */; };
@@ -37,6 +36,27 @@
 		EA0BC8A618D5535300552D00 /* UserInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC88218D5524D00552D00 /* UserInterface.cpp */; };
 		EA0BC8A718D5535300552D00 /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC88518D5524D00552D00 /* Window.cpp */; };
 		EA0BC8A818D5535300552D00 /* Winvar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC88718D5524D00552D00 /* Winvar.cpp */; };
+		EA0BC8AA18D5671D00552D00 /* LightweightCompression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC81418D5524D00552D00 /* LightweightCompression.cpp */; };
+		EA0BC8AB18D5671D00552D00 /* PacketProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC81618D5524D00552D00 /* PacketProcessor.cpp */; };
+		EA0BC8AC18D5671D00552D00 /* Snapshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC81818D5524D00552D00 /* Snapshot.cpp */; };
+		EA0BC8AD18D5671D00552D00 /* Snapshot_Jobs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC81A18D5524D00552D00 /* Snapshot_Jobs.cpp */; };
+		EA0BC8AE18D5671D00552D00 /* SnapshotProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC81C18D5524D00552D00 /* SnapshotProcessor.cpp */; };
+		EA0BC8AF18D5671D00552D00 /* sys_achievements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC81E18D5524D00552D00 /* sys_achievements.cpp */; };
+		EA0BC8B018D5671D00552D00 /* sys_dedicated_server_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC82018D5524D00552D00 /* sys_dedicated_server_search.cpp */; };
+		EA0BC8B118D5671D00552D00 /* sys_lobby.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC82318D5524D00552D00 /* sys_lobby.cpp */; };
+		EA0BC8B218D5671D00552D00 /* sys_lobby_backend_direct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC82618D5524D00552D00 /* sys_lobby_backend_direct.cpp */; };
+		EA0BC8B318D5671D00552D00 /* sys_lobby_migrate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC82818D5524D00552D00 /* sys_lobby_migrate.cpp */; };
+		EA0BC8B418D5671D00552D00 /* sys_lobby_snapshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC82918D5524D00552D00 /* sys_lobby_snapshot.cpp */; };
+		EA0BC8B518D5671D00552D00 /* sys_lobby_users.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC82A18D5524D00552D00 /* sys_lobby_users.cpp */; };
+		EA0BC8B618D5671D00552D00 /* sys_local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC82B18D5524D00552D00 /* sys_local.cpp */; };
+		EA0BC8B718D5671D00552D00 /* sys_localuser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC82D18D5524D00552D00 /* sys_localuser.cpp */; };
+		EA0BC8B818D5671D00552D00 /* sys_profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC82F18D5524D00552D00 /* sys_profile.cpp */; };
+		EA0BC8B918D5671D00552D00 /* sys_savegame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83218D5524D00552D00 /* sys_savegame.cpp */; };
+		EA0BC8BA18D5671D00552D00 /* sys_session_callbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83518D5524D00552D00 /* sys_session_callbacks.cpp */; };
+		EA0BC8BB18D5671D00552D00 /* sys_session_local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83618D5524D00552D00 /* sys_session_local.cpp */; };
+		EA0BC8BC18D5671D00552D00 /* sys_session_savegames.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83818D5524D00552D00 /* sys_session_savegames.cpp */; };
+		EA0BC8BD18D5671D00552D00 /* sys_signin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83A18D5524D00552D00 /* sys_signin.cpp */; };
+		EA0BC8BE18D5671D00552D00 /* sys_voicechat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0BC83E18D5524D00552D00 /* sys_voicechat.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2186,23 +2206,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0BC8B718D5671D00552D00 /* sys_localuser.cpp in Sources */,
 				EA0BC8A118D5535300552D00 /* ListWindow.cpp in Sources */,
+				EA0BC8AA18D5671D00552D00 /* LightweightCompression.cpp in Sources */,
+				EA0BC8B418D5671D00552D00 /* sys_lobby_snapshot.cpp in Sources */,
 				EA0BC89B18D5535300552D00 /* GameBearShootWindow.cpp in Sources */,
+				EA0BC8B918D5671D00552D00 /* sys_savegame.cpp in Sources */,
+				EA0BC8BE18D5671D00552D00 /* sys_voicechat.cpp in Sources */,
+				EA0BC8BD18D5671D00552D00 /* sys_signin.cpp in Sources */,
+				EA0BC8AC18D5671D00552D00 /* Snapshot.cpp in Sources */,
 				EA0BC89618D5535300552D00 /* BindWindow.cpp in Sources */,
+				EA0BC8AB18D5671D00552D00 /* PacketProcessor.cpp in Sources */,
+				EA0BC8B618D5671D00552D00 /* sys_local.cpp in Sources */,
+				EA0BC8AE18D5671D00552D00 /* SnapshotProcessor.cpp in Sources */,
 				EA0BC8A718D5535300552D00 /* Window.cpp in Sources */,
+				EA0BC8BB18D5671D00552D00 /* sys_session_local.cpp in Sources */,
 				EA0BC8A418D5535300552D00 /* SimpleWindow.cpp in Sources */,
+				EA0BC8B318D5671D00552D00 /* sys_lobby_migrate.cpp in Sources */,
 				EA0BC89F18D5535300552D00 /* GuiScript.cpp in Sources */,
 				EA0BC8A818D5535300552D00 /* Winvar.cpp in Sources */,
 				EA0BC4FB18D5521B00552D00 /* main.m in Sources */,
 				EA0BC89A18D5535300552D00 /* FieldWindow.cpp in Sources */,
 				EA0BC8A218D5535300552D00 /* RegExp.cpp in Sources */,
 				EA0BC8A518D5535300552D00 /* SliderWindow.cpp in Sources */,
+				EA0BC8B818D5671D00552D00 /* sys_profile.cpp in Sources */,
 				EA0BC89718D5535300552D00 /* ChoiceWindow.cpp in Sources */,
+				EA0BC8B518D5671D00552D00 /* sys_lobby_users.cpp in Sources */,
 				EA0BC89818D5535300552D00 /* DeviceContext.cpp in Sources */,
 				EA0BC89D18D5535300552D00 /* GameSSDWindow.cpp in Sources */,
+				EA0BC8B018D5671D00552D00 /* sys_dedicated_server_search.cpp in Sources */,
 				EA0BC8A618D5535300552D00 /* UserInterface.cpp in Sources */,
-				EA0BC89E18D5535300552D00 /* GameWindow.cpp in Sources */,
 				EA0BC8A018D5535300552D00 /* ListGUI.cpp in Sources */,
+				EA0BC8BC18D5671D00552D00 /* sys_session_savegames.cpp in Sources */,
+				EA0BC8B118D5671D00552D00 /* sys_lobby.cpp in Sources */,
+				EA0BC8AD18D5671D00552D00 /* Snapshot_Jobs.cpp in Sources */,
+				EA0BC8AF18D5671D00552D00 /* sys_achievements.cpp in Sources */,
+				EA0BC8BA18D5671D00552D00 /* sys_session_callbacks.cpp in Sources */,
+				EA0BC8B218D5671D00552D00 /* sys_lobby_backend_direct.cpp in Sources */,
 				EA0BC8A318D5535300552D00 /* RenderWindow.cpp in Sources */,
 				EA0BC89C18D5535300552D00 /* GameBustOutWindow.cpp in Sources */,
 				EA0BC89918D5535300552D00 /* EditWindow.cpp in Sources */,
