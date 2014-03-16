@@ -155,7 +155,11 @@ void idCommonLocal::VPrintf( const char *fmt, va_list args ) {
 	}
 #endif
 	if ( !idLib::IsMainThread() ) {
+#if defined(ID_WIN32)
 		OutputDebugString( msg );
+#else
+        printf( "%s", msg );
+#endif
 		return;
 	}
 
